@@ -1,0 +1,6 @@
+export $PATH=pwd
+WORD="HELLO"
+find . -path $PATH/*.py -type f  > results.txt
+
+head results.txt 5
+tail results.txt 3
